@@ -3,6 +3,5 @@ export function reverse(str) {
 }
 
 export function isPalindrome(str) {
-  console.log(reverse(str));
   return str.toLowerCase() === reverse(str);
 }
